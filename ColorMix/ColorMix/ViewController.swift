@@ -25,12 +25,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         colorView.layer.borderWidth = 5
-        colorView.layer.cornerRadius = 30
+        colorView.layer.cornerRadius = 20
         colorView.layer.borderColor =
-           UIColor.black.cgColor
+        UIColor.black.cgColor
         updateColor()
-        colorView.backgroundColor = .black
-        
+                
     }
     
     @IBAction func sliderChanged(_ sender:UISwitch ) {
